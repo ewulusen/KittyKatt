@@ -187,6 +187,13 @@ public class databaseHelper extends SQLiteOpenHelper{
         Cursor data = db.rawQuery(sql, null);
         return data;
     }
+    public Cursor backLogin(String id){
+        SQLiteDatabase db = this.getReadableDatabase();
+        String sql="SELECT * FROM " + tableName+ " where ID="+id+"";
+        //Log.d("SQL",sql);
+        Cursor data = db.rawQuery(sql, null);
+        return data;
+    }
     public boolean saveData(String[] datas)
     {
         SQLiteDatabase db = this.getWritableDatabase();
@@ -220,6 +227,13 @@ public class databaseHelper extends SQLiteOpenHelper{
         Log.d("update","kész");
         return true;
 
+    }
+    public Cursor getUnit(String ID)
+    {
+        SQLiteDatabase db = this.getReadableDatabase();
+        String sql="SELECT * FROM " + unitName+ " where ID='"+ID+"'";
+        Cursor data = db.rawQuery(sql, null);
+        return data;
     }
 }
 

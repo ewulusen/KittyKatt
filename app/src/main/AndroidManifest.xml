@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="ewulusen.kittykatt">
+
     <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/indit2"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/indit2"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".login">
@@ -27,6 +29,9 @@
             android:screenOrientation="landscape">
             >
         </activity>
+        <activity android:name=".pve_battlefield"
+            android:parentActivityName=".mainScreen"
+            android:screenOrientation="portrait">></activity>
     </application>
 
 </manifest>

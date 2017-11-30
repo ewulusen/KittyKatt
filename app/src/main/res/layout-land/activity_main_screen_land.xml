@@ -365,7 +365,9 @@
                             <ListView
                                 android:id="@+id/sms_kap"
                                 android:layout_width="wrap_content"
-                                android:layout_height="wrap_content" />
+                                android:layout_height="100dp"
+                                android:transcriptMode="alwaysScroll"
+                                android:stackFromBottom="true"/>
                         </TableRow>
 
                         <TableRow
@@ -408,6 +410,19 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical"
                     >
+
+                            <Button
+                                android:id="@+id/PVE"
+                                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="PVE" />
+
+                            <Button
+                                android:id="@+id/PVP"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="PVP" />
                 </LinearLayout>
                     </LinearLayout>
 

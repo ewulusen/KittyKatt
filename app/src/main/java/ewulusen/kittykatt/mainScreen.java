@@ -28,17 +28,16 @@ import java.net.URLEncoder;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Locale;
 
 public class mainScreen extends AppCompatActivity {
     //* A globális változók deklarálása*//
-    Intent intent;
-    String message ;
-    String[] datas ;
+    public static Intent intent;
+    public static String message ;
+    public static String[] datas ;
     MediaPlayer buy,miau;
     ImageView cicaKatt,cicaImg1,cicaImg2,cicaImg3,cicaImg4,cicaImg5,cicaImg6,cicaImg7;
     TextView textView,cica1,cica2,cica3,cica4,cica5,cica6,cica7,cicaar1,cicaar2,cicaar3,cicaar4,cicaar5,cicaar6,cicaar7;
-    Button v1,v2,v3,v4,v5,sms;
+    Button v1,v2,v3,v4,v5,sms,PVE,PVP;
     databaseHelper userDB;
     LinearLayout tab3;
     EditText sms_t;
@@ -58,9 +57,11 @@ public class mainScreen extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_screen_land);
+
         intent = getIntent();
         message = intent.getStringExtra("datas");
         datas = message.split(",");
+
         TabHost tb=(TabHost) findViewById(R.id.tabok);
         tb.setup();
         //tab1
@@ -126,6 +127,9 @@ public class mainScreen extends AppCompatActivity {
         v3 = findViewById(R.id.v3);
         v4 = findViewById(R.id.v4);
         v5 = findViewById(R.id.v5);
+        PVE=findViewById(R.id.PVE);
+        PVP=findViewById(R.id.PVP);
+        PVP.setEnabled(false);
         sms = findViewById(R.id.sms);
         cica1.setText(datas[3]);
         cica2.setText(datas[4]);
@@ -435,13 +439,17 @@ public class mainScreen extends AppCompatActivity {
                 }
             }
         });
-        /*tab3.setOnClickListener(new View.OnClickListener() {
-        @Override
-        public void onClick(View view) {
-            initialList = new ArrayList<String>(); //load these
-            sms_display.setAdapter(mAdapter);
-        }
-    });*/
+        PVE.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                final Intent intent1;
+                intent1 = new Intent(mainScreen.this, pve_battlefield.class);
+            String message = datas[0]+","+datas[3]+ ","+datas[4]+ ","+datas[5]+ ","+datas[6]+ ","+datas[7]+ ","+datas[8]+ ","+datas[9];
+                intent1.putExtra("units", message);
+                startActivity(intent1);
+            }
+        });
+
     }
     public void display(String title, String message){
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
