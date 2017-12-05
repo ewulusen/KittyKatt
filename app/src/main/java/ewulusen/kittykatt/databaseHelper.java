@@ -232,6 +232,7 @@ public class databaseHelper extends SQLiteOpenHelper{
     {
         SQLiteDatabase db = this.getReadableDatabase();
         String sql="SELECT * FROM " + unitName+ " where ID='"+ID+"'";
+
         Cursor data = db.rawQuery(sql, null);
         return data;
     }

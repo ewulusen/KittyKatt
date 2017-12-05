@@ -24,14 +24,26 @@
             >
         </activity>
         <activity
-            android:name=".mainScreen"
-            android:parentActivityName=".login"
-            android:screenOrientation="landscape">
+            android:name=".pve_battlefield"
+            android:screenOrientation="portrait">
             >
         </activity>
-        <activity android:name=".pve_battlefield"
-            android:parentActivityName=".mainScreen"
-            android:screenOrientation="portrait">></activity>
+        <activity android:name=".start_screen"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".unit"
+        android:screenOrientation="portrait"/>
+        <activity android:name=".cica"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".factory"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".chat"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".upgrade"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".pvp_battlefield"
+            android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>
