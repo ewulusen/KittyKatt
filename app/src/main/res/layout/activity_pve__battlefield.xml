@@ -39,7 +39,7 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/c1"
+                android:id="@+id/a_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@mipmap/c1"
@@ -71,7 +71,7 @@
                 android:background="@mipmap/green" />
 
             <TextView
-                android:id="@+id/e1"
+                android:id="@+id/a_6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@mipmap/e1" />
@@ -82,7 +82,7 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/c2"
+                android:id="@+id/b_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@mipmap/c2"
@@ -114,7 +114,7 @@
                 android:background="@mipmap/green" />
 
             <TextView
-                android:id="@+id/e2"
+                android:id="@+id/b_6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@mipmap/e2" />
@@ -125,7 +125,7 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/c3"
+                android:id="@+id/c_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@mipmap/c3"
@@ -157,7 +157,7 @@
                 android:background="@mipmap/green" />
 
             <TextView
-                android:id="@+id/e3"
+                android:id="@+id/c_6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@mipmap/e3" />
@@ -168,7 +168,7 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/c4"
+                android:id="@+id/d_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@mipmap/c4"
@@ -200,7 +200,7 @@
                 android:background="@mipmap/green" />
 
             <TextView
-                android:id="@+id/e4"
+                android:id="@+id/d_6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@mipmap/e4" />
@@ -211,7 +211,7 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/c5"
+                android:id="@+id/e_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@mipmap/c5"
@@ -243,7 +243,7 @@
                 android:background="@mipmap/green" />
 
             <TextView
-                android:id="@+id/e5"
+                android:id="@+id/e_6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@mipmap/e5" />
@@ -254,7 +254,7 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/c6"
+                android:id="@+id/f_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@mipmap/c6"
@@ -286,7 +286,7 @@
                 android:background="@mipmap/green" />
 
             <TextView
-                android:id="@+id/e6"
+                android:id="@+id/f_6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@mipmap/e6" />
@@ -297,7 +297,7 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/c7"
+                android:id="@+id/g_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@mipmap/c7"
@@ -329,11 +329,81 @@
                 android:background="@mipmap/green" />
 
             <TextView
-                android:id="@+id/e7"
+                android:id="@+id/g_6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@mipmap/e7" />
         </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/lathato1">
+
+                <TextView
+                    android:id="@+id/c1_j"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/c1_j" /><TextView
+                    android:id="@+id/c2_j"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/c2_j" /><TextView
+                    android:id="@+id/c3_j"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/c3_j" /><TextView
+                    android:id="@+id/c4_j"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/c4_j" /><TextView
+                    android:id="@+id/c5_j"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/c5_j" /><TextView
+                    android:id="@+id/c6_j"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/c6_j" /><TextView
+                    android:id="@+id/c7_j"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/c7_j" />
+                    <TextView
+                    android:id="@+id/ec1_j"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/ec1_j" /><TextView
+                    android:id="@+id/ec2_j"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/ec2_j" /><TextView
+                    android:id="@+id/ec3_j"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/ec3_j" /><TextView
+                    android:id="@+id/ec4_j"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/ec4_j" /><TextView
+                    android:id="@+id/ec5_j"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/ec5_j" /><TextView
+                    android:id="@+id/ec6_j"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/ec6_j" /><TextView
+                    android:id="@+id/ec7_j"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/ec7_j" /><TextView
+                    android:id="@+id/green_j"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/green_j" />
+
+
+            </TableRow>
     </TableLayout>
 
 

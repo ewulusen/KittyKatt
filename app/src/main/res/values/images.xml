@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="units">
+        <item>sajtostészta</item>
+        <item>@id/c_2</item>
+        <item>@id/c_3</item>
+        <item>@id/c_4</item>
+        <item>@id/c_5</item>
+        <item>@id/c_6</item>
+        <item>@id/e_1</item>
+        <item>@id/e_2</item>
+        <item>@id/e_3</item>
+        <item>@id/e_4</item>
+        <item>@id/e_5</item>
+        <item>@id/e_6</item>
+        <item>@id/c1_j</item>
+        <item>@id/c2_j</item>
+        <item>@id/c3_j</item>
+        <item>@id/c4_j</item>
+        <item>@id/c5_j</item>
+        <item>@id/c6_j</item>
+        <item>@id/c7_j</item>
+        <item>@id/ec1_j</item>
+        <item>@id/ec2_j</item>
+        <item>@id/c3_j</item>
+        <item>@id/ec4_j</item>
+        <item>@id/ec5_j</item>
+        <item>@id/ec6_j</item>
+        <item>@id/ec7_j</item>
+
+    </array>
+</resources>
