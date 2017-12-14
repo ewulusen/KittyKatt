@@ -30,10 +30,32 @@ public class upgrade extends AppCompatActivity {
         message = intent.getStringExtra("datas");
         datas = message.split(",");
         textView = findViewById(R.id.welcommeVar);
-        textView.setText("Üdvözöllek " + datas[1] + "! Jelenleg ennyi " + String.format("%.0f",Double.parseDouble(datas[2])) + " pénzed van! \n fejelsztés alatt");
+        String money=String.format("%.0f", Double.parseDouble(datas[2]));
+        String dumymoney=String.format("%.0f", Double.parseDouble(datas[2]));
+        if(dumymoney.length()>6 && dumymoney.length()<9)
+        {
+            if(dumymoney.length()==7) {
+                String money1 = String.valueOf(money.charAt(0));
+                String money2 = String.valueOf(money.charAt(1));
+                money = money1 + "." + money2 + " mil";
+            }
+            if(dumymoney.length()==8) {
+                String money1 = String.valueOf(money.charAt(0));
+                String money2 = String.valueOf(money.charAt(1));
+                String money3 = String.valueOf(money.charAt(2));
+                money = money1 + "" + money2 + "."+money3+" mil";
+            } if(dumymoney.length()==9) {
+            String money1 = String.valueOf(money.charAt(0));
+            String money2 = String.valueOf(money.charAt(1));
+            String money3 = String.valueOf(money.charAt(2));
+            String money4 = String.valueOf(money.charAt(3));
+            money = money1 + "" + money2 + ""+money3+ "."+money4+" mil";
+        }
+        }
+       textView.setText("Üdvözöllek " + datas[1] + "! Jelenleg ennyi " + money + " pénzed van!");
         back=findViewById(R.id.back);
         userDB = new databaseHelper(this);
-
+        mentes();
         lisztenerek();
     }
 

@@ -30,7 +30,29 @@ public class unit extends AppCompatActivity {
         message = intent.getStringExtra("datas");
         datas = message.split(",");
         textView = findViewById(R.id.welcommeVar);
-        textView.setText("Üdvözöllek " + datas[1] + "! Jelenleg ennyi " + String.format("%.0f",Double.parseDouble(datas[2])) + " pénzed van!");
+        String money=String.format("%.0f", Double.parseDouble(datas[2]));
+        String dumymoney=String.format("%.0f", Double.parseDouble(datas[2]));
+        if(dumymoney.length()>6 && dumymoney.length()<9)
+        {
+            if(dumymoney.length()==7) {
+                String money1 = String.valueOf(money.charAt(0));
+                String money2 = String.valueOf(money.charAt(1));
+                money = money1 + "." + money2 + " mil";
+            }
+            if(dumymoney.length()==8) {
+                String money1 = String.valueOf(money.charAt(0));
+                String money2 = String.valueOf(money.charAt(1));
+                String money3 = String.valueOf(money.charAt(2));
+                money = money1 + "" + money2 + "."+money3+" mil";
+            } if(dumymoney.length()==9) {
+            String money1 = String.valueOf(money.charAt(0));
+            String money2 = String.valueOf(money.charAt(1));
+            String money3 = String.valueOf(money.charAt(2));
+            String money4 = String.valueOf(money.charAt(3));
+            money = money1 + "" + money2 + ""+money3+ "."+money4+" mil";
+        }
+        }
+        textView.setText("Üdvözöllek " + datas[1] + "! Jelenleg ennyi " + money + " pénzed van!");
         penzNovel();
         userDB = new databaseHelper(this);
         cica1 = findViewById(R.id.cica1);
@@ -63,13 +85,14 @@ public class unit extends AppCompatActivity {
         cica5.setText(datas[7]);
         cica6.setText(datas[8]);
         cica7.setText(datas[9]);
-        cicaar1.setText(datas[15]);
-        cicaar2.setText(datas[16]);
-        cicaar3.setText(datas[17]);
-        cicaar4.setText(datas[18]);
-        cicaar5.setText(datas[19]);
-        cicaar6.setText(datas[20]);
-        cicaar7.setText(datas[21]);
+
+        cicaar1.setText(datas[15].charAt(0)+""+datas[15].charAt(1)+"ezer");
+        cicaar2.setText(datas[16].charAt(0)+""+datas[16].charAt(1)+""+datas[16].charAt(2)+"ezer");
+        cicaar3.setText(datas[17].charAt(0)+"mil");
+        cicaar4.setText(datas[18].charAt(0)+""+datas[18].charAt(1)+"mil");
+        cicaar5.setText(datas[19].charAt(0)+""+datas[19].charAt(1)+""+datas[19].charAt(2)+"mil");
+        cicaar6.setText(datas[20].charAt(0)+"bil");
+        cicaar7.setText(datas[21].charAt(0)+""+datas[21].charAt(1)+"bil");
         buy = new MediaPlayer();
         miau = new MediaPlayer();
         lisztenerek();
@@ -102,7 +125,29 @@ public class unit extends AppCompatActivity {
                         datas[2]=Double.toString(Double.parseDouble(datas[2])+(Double.parseDouble(datas[26])*0.1));
                     }
                     datas[2]=Double.toString(Double.parseDouble(datas[2])+(Double.parseDouble(datas[22])*0.1));
-                    textView.setText("Üdvözöllek " + datas[1] + "! Jelenleg ennyi " + String.format("%.0f",Double.parseDouble(datas[2])) + " pénzed van!");
+                    String money=String.format("%.0f", Double.parseDouble(datas[2]));
+                    String dumymoney=String.format("%.0f", Double.parseDouble(datas[2]));
+                    if(dumymoney.length()>6 && dumymoney.length()<9)
+                    {
+                        if(dumymoney.length()==7) {
+                            String money1 = String.valueOf(money.charAt(0));
+                            String money2 = String.valueOf(money.charAt(1));
+                            money = money1 + "." + money2 + " mil";
+                        }
+                        if(dumymoney.length()==8) {
+                            String money1 = String.valueOf(money.charAt(0));
+                            String money2 = String.valueOf(money.charAt(1));
+                            String money3 = String.valueOf(money.charAt(2));
+                            money = money1 + "" + money2 + "."+money3+" mil";
+                        } if(dumymoney.length()==9) {
+                        String money1 = String.valueOf(money.charAt(0));
+                        String money2 = String.valueOf(money.charAt(1));
+                        String money3 = String.valueOf(money.charAt(2));
+                        String money4 = String.valueOf(money.charAt(3));
+                        money = money1 + "" + money2 + ""+money3+ "."+money4+" mil";
+                    }
+                    }
+                    textView.setText("Üdvözöllek " + datas[1] + "! Jelenleg ennyi " + money + " pénzed van!");
 
                 }
                 mHandler.postDelayed(this, 2500);

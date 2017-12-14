@@ -18,393 +18,322 @@
         <TextView
             android:id="@+id/mecspve"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="30dp"
             android:text="TextView"
             tools:ignore="MissingConstraints" />
 
         <TableLayout
-        android:id="@+id/tableLayout"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginBottom="28dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.533"
-        app:layout_constraintStart_toStartOf="parent">
+            android:id="@+id/tableLayout"
+            android:layout_width="371dp"
+            android:layout_height="395dp"
+            android:layout_marginBottom="28dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.533"
+            app:layout_constraintStart_toStartOf="parent">
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <TextView
-                android:id="@+id/a_1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@mipmap/c1"
-                tools:layout_editor_absoluteX="16dp"
-                tools:layout_editor_absoluteY="40dp" />
-
-            <TextView
-                android:id="@+id/a_2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@mipmap/green" />
-
-            <TextView
-                android:id="@+id/a_3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@mipmap/green" />
-
-            <TextView
-                android:id="@+id/a_4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@mipmap/green" />
-
-            <TextView
-                android:id="@+id/a_5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@mipmap/green" />
-
-            <TextView
-                android:id="@+id/a_6"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@mipmap/e1" />
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <TextView
-                android:id="@+id/b_1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@mipmap/c2"
-                tools:layout_editor_absoluteX="16dp"
-                tools:layout_editor_absoluteY="40dp" />
-
-            <TextView
-                android:id="@+id/b_2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@mipmap/green" />
-
-            <TextView
-                android:id="@+id/b_3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@mipmap/green" />
-
-            <TextView
-                android:id="@+id/b_4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@mipmap/green" />
-
-            <TextView
-                android:id="@+id/b_5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@mipmap/green" />
-
-            <TextView
-                android:id="@+id/b_6"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@mipmap/e2" />
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <TextView
-                android:id="@+id/c_1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@mipmap/c3"
-                tools:layout_editor_absoluteX="16dp"
-                tools:layout_editor_absoluteY="40dp" />
-
-            <TextView
-                android:id="@+id/c_2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@mipmap/green" />
-
-            <TextView
-                android:id="@+id/c_3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@mipmap/green" />
-
-            <TextView
-                android:id="@+id/c_4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@mipmap/green" />
-
-            <TextView
-                android:id="@+id/c_5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@mipmap/green" />
-
-            <TextView
-                android:id="@+id/c_6"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@mipmap/e3" />
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <TextView
-                android:id="@+id/d_1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@mipmap/c4"
-                tools:layout_editor_absoluteX="16dp"
-                tools:layout_editor_absoluteY="40dp" />
-
-            <TextView
-                android:id="@+id/d_2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@mipmap/green" />
-
-            <TextView
-                android:id="@+id/d_3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@mipmap/green" />
-
-            <TextView
-                android:id="@+id/d_4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@mipmap/green" />
-
-            <TextView
-                android:id="@+id/d_5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@mipmap/green" />
-
-            <TextView
-                android:id="@+id/d_6"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@mipmap/e4" />
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <TextView
-                android:id="@+id/e_1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@mipmap/c5"
-                tools:layout_editor_absoluteX="16dp"
-                tools:layout_editor_absoluteY="40dp" />
-
-            <TextView
-                android:id="@+id/e_2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@mipmap/green" />
-
-            <TextView
-                android:id="@+id/e_3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@mipmap/green" />
-
-            <TextView
-                android:id="@+id/e_4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@mipmap/green" />
-
-            <TextView
-                android:id="@+id/e_5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@mipmap/green" />
-
-            <TextView
-                android:id="@+id/e_6"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@mipmap/e5" />
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <TextView
-                android:id="@+id/f_1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@mipmap/c6"
-                tools:layout_editor_absoluteX="16dp"
-                tools:layout_editor_absoluteY="40dp" />
-
-            <TextView
-                android:id="@+id/f_2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@mipmap/green" />
-
-            <TextView
-                android:id="@+id/f_3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@mipmap/green" />
-
-            <TextView
-                android:id="@+id/f_4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@mipmap/green" />
-
-            <TextView
-                android:id="@+id/f_5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@mipmap/green" />
-
-            <TextView
-                android:id="@+id/f_6"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@mipmap/e6" />
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <TextView
-                android:id="@+id/g_1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@mipmap/c7"
-                tools:layout_editor_absoluteX="16dp"
-                tools:layout_editor_absoluteY="40dp" />
-
-            <TextView
-                android:id="@+id/g_2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@mipmap/green" />
-
-            <TextView
-                android:id="@+id/g_3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@mipmap/green" />
-
-            <TextView
-                android:id="@+id/g_4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@mipmap/green" />
-
-            <TextView
-                android:id="@+id/g_5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@mipmap/green" />
-
-            <TextView
-                android:id="@+id/g_6"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@mipmap/e7" />
-        </TableRow>
             <TableRow
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:id="@+id/lathato1">
+                android:layout_height="match_parent">
 
                 <TextView
-                    android:id="@+id/c1_j"
+                    android:id="@+id/a_1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@mipmap/c1_j" /><TextView
-                    android:id="@+id/c2_j"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@mipmap/c2_j" /><TextView
-                    android:id="@+id/c3_j"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@mipmap/c3_j" /><TextView
-                    android:id="@+id/c4_j"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@mipmap/c4_j" /><TextView
-                    android:id="@+id/c5_j"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@mipmap/c5_j" /><TextView
-                    android:id="@+id/c6_j"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@mipmap/c6_j" /><TextView
-                    android:id="@+id/c7_j"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@mipmap/c7_j" />
-                    <TextView
-                    android:id="@+id/ec1_j"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@mipmap/ec1_j" /><TextView
-                    android:id="@+id/ec2_j"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@mipmap/ec2_j" /><TextView
-                    android:id="@+id/ec3_j"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@mipmap/ec3_j" /><TextView
-                    android:id="@+id/ec4_j"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@mipmap/ec4_j" /><TextView
-                    android:id="@+id/ec5_j"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@mipmap/ec5_j" /><TextView
-                    android:id="@+id/ec6_j"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@mipmap/ec6_j" /><TextView
-                    android:id="@+id/ec7_j"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@mipmap/ec7_j" /><TextView
-                    android:id="@+id/green_j"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@mipmap/green_j" />
+                    android:background="@mipmap/c1"/>
 
+                <TextView
+                    android:id="@+id/a_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/green" />
 
+                <TextView
+                    android:id="@+id/a_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/green" />
+
+                <TextView
+                    android:id="@+id/a_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/green" />
+
+                <TextView
+                    android:id="@+id/a_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/green" />
+
+                <TextView
+                    android:id="@+id/a_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/e1" />
             </TableRow>
-    </TableLayout>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/b_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/c2"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="40dp" />
+
+                <TextView
+                    android:id="@+id/b_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/green" />
+
+                <TextView
+                    android:id="@+id/b_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/green" />
+
+                <TextView
+                    android:id="@+id/b_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/green" />
+
+                <TextView
+                    android:id="@+id/b_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/green" />
+
+                <TextView
+                    android:id="@+id/b_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/e2" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/c_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/c3"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="40dp" />
+
+                <TextView
+                    android:id="@+id/c_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/green" />
+
+                <TextView
+                    android:id="@+id/c_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/green" />
+
+                <TextView
+                    android:id="@+id/c_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/green" />
+
+                <TextView
+                    android:id="@+id/c_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/green" />
+
+                <TextView
+                    android:id="@+id/c_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/e3" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/d_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/c4"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="40dp" />
+
+                <TextView
+                    android:id="@+id/d_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/green" />
+
+                <TextView
+                    android:id="@+id/d_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/green" />
+
+                <TextView
+                    android:id="@+id/d_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/green" />
+
+                <TextView
+                    android:id="@+id/d_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/green" />
+
+                <TextView
+                    android:id="@+id/d_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/e4" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/e_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/c5"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="40dp" />
+
+                <TextView
+                    android:id="@+id/e_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/green" />
+
+                <TextView
+                    android:id="@+id/e_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/green" />
+
+                <TextView
+                    android:id="@+id/e_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/green" />
+
+                <TextView
+                    android:id="@+id/e_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/green" />
+
+                <TextView
+                    android:id="@+id/e_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/e5" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/f_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/c6"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="40dp" />
+
+                <TextView
+                    android:id="@+id/f_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/green" />
+
+                <TextView
+                    android:id="@+id/f_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/green" />
+
+                <TextView
+                    android:id="@+id/f_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/green" />
+
+                <TextView
+                    android:id="@+id/f_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/green" />
+
+                <TextView
+                    android:id="@+id/f_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/e6" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/g_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/c7"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="40dp" />
+
+                <TextView
+                    android:id="@+id/g_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/green" />
+
+                <TextView
+                    android:id="@+id/g_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/green" />
+
+                <TextView
+                    android:id="@+id/g_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/green" />
+
+                <TextView
+                    android:id="@+id/g_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/green" />
+
+                <TextView
+                    android:id="@+id/g_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/e7" />
+            </TableRow>
+
+        </TableLayout>
 
 
     <ImageView
@@ -412,6 +341,111 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         app:srcCompat="@drawable/back" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:id="@+id/lathato1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible">
+
+                <TextView
+                    android:id="@+id/c1_j"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/c1_j" />
+
+                <TextView
+                    android:id="@+id/c2_j"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/c2_j" />
+
+                <TextView
+                    android:id="@+id/c3_j"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/c3_j" />
+
+                <TextView
+                    android:id="@+id/c4_j"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/c4_j" />
+
+                <TextView
+                    android:id="@+id/c5_j"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/c5_j" />
+
+                <TextView
+                    android:id="@+id/c6_j"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/c6_j" />
+
+                <TextView
+                    android:id="@+id/c7_j"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/c7_j" />
+
+                <TextView
+                    android:id="@+id/ec1_j"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/ec1_j" />
+
+                <TextView
+                    android:id="@+id/ec2_j"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/ec2_j" />
+
+                <TextView
+                    android:id="@+id/ec3_j"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/ec3_j" />
+
+                <TextView
+                    android:id="@+id/ec4_j"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/ec4_j" />
+
+                <TextView
+                    android:id="@+id/ec5_j"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/ec5_j" />
+
+                <TextView
+                    android:id="@+id/ec6_j"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/ec6_j" />
+
+                <TextView
+                    android:id="@+id/ec7_j"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/ec7_j" />
+
+                <TextView
+                    android:id="@+id/green_j"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/green_j" />
+
+
+            </TableRow>
+
+        </TableLayout>
     </LinearLayout>
     </ScrollView>
 </android.support.constraint.ConstraintLayout>
