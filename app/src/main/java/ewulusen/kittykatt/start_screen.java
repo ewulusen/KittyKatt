@@ -63,14 +63,15 @@ public class start_screen extends AppCompatActivity {
         kiir.setText("Üdvözöllek " + datas[1] + "! Jelenleg ennyi " + money + " pénzed van!");
         penzNovel();
         int unitok = 0;
-        for (int i = 4; i < 11; i++) {
+        for (int i = 3; i < 10; i++) {
+
             if (datas[i].equals("0")) {
                 unitok++;
             }
 
         }
         Log.d("unitok","unitok"+unitok);
-        if (unitok < 6) {
+        if (unitok < 7) {
             circleMenu = (CircleMenu) findViewById(R.id.circle_menu);
             circleMenu.setMainMenu(Color.parseColor("#CDCDCD"), R.drawable.plus, R.drawable.x)
                     .addSubMenu(Color.parseColor("#258CFF"), R.drawable.unit)
