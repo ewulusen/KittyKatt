@@ -299,6 +299,7 @@ public class factory extends AppCompatActivity {
                 intent.putExtra("datas", message);
                 startActivity(intent);
                 finish();
+                Thread.interrupted();
             }
         });
 

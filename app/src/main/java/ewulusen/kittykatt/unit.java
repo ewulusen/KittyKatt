@@ -323,7 +323,8 @@ public class unit extends AppCompatActivity {
                         "," + data.getString(27);
                 intent.putExtra("datas", message);
                 startActivity(intent);
-                finish();
+                unit.this.finish();
+                Thread.interrupted();
             }
         });
     }

@@ -191,6 +191,7 @@ public class cica extends AppCompatActivity {
                 intent.putExtra("datas", message);
                 startActivity(intent);
                 finish();
+                Thread.interrupted();
             }
         });
     }

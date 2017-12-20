@@ -92,6 +92,7 @@ public class upgrade extends AppCompatActivity {
                 intent.putExtra("datas", message);
                 startActivity(intent);
                 finish();
+                Thread.interrupted();
             }
         });
     }

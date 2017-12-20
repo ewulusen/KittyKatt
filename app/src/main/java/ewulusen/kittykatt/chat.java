@@ -240,7 +240,8 @@ public class chat extends AppCompatActivity {
                         "," + data.getString(27);
                 intent.putExtra("datas", message);
                 startActivity(intent);
-                finish();
+               finish();
+               Thread.interrupted();
             }
         });
 
