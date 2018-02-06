@@ -7,7 +7,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
-import android.widget.TableRow;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -35,6 +34,7 @@ public class pve_battlefield extends AppCompatActivity {
     int[] hpower, ehpower;
     ImageView back;
     databaseHelper userDB;
+    int[] StandU={R.mipmap.tall0,R.mipmap.tall1,R.mipmap.tall2,R.mipmap.tall3,R.mipmap.tall4,R.mipmap.tall5,R.mipmap.tall6};
     int[] images = {R.mipmap.green, R.mipmap.c1, R.mipmap.c2, R.mipmap.c3, R.mipmap.c4,
             R.mipmap.c5, R.mipmap.c6, R.mipmap.c7, R.mipmap.e1, R.mipmap.e2, R.mipmap.e3, R.mipmap.e4,
             R.mipmap.e5, R.mipmap.e6, R.mipmap.e7, R.mipmap.c1_j, R.mipmap.c2_j, R.mipmap.c3_j,
@@ -114,9 +114,25 @@ public class pve_battlefield extends AppCompatActivity {
         drawBF();
         getBFTargets();
         lisztenerek();
-
+        Stand();
     }
+    private void Stand() {
+        final Handler mHandler = new Handler();
+        final int[] i = {0};
+        mHandler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
 
+                if (i[0] == 7) {
+                    i[0] = 0;
+                }
+                filds[6].setBackgroundResource(StandU[i[0]]);
+                i[0]++;
+
+                mHandler.postDelayed(this, 200);
+            }
+        }, 200);
+    }
     public void drawBF() {
         Log.d("művelet","rajzolok");
         for (int i = 0; i < 7; i++) {

@@ -14,6 +14,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a62fa4d0-3d9b-4add-b962-328088860f73" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/Tall0-web.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/Tall1-web.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/Tall5-web.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/Tall6-web.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/tall0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/tall1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/tall5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/tall6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/tall0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/tall1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/tall5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/tall6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/tall0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/tall1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/tall5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/tall6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/tall0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/tall1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/tall5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/tall6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/tall0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/tall1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/tall5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/tall6.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" />
@@ -23,7 +47,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ewulusen/kittykatt/start_screen.java" afterPath="$PROJECT_DIR$/app/src/main/java/ewulusen/kittykatt/start_screen.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ewulusen/kittykatt/pve_battlefield.java" afterPath="$PROJECT_DIR$/app/src/main/java/ewulusen/kittykatt/pve_battlefield.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_pve__battlefield.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_pve__battlefield.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -50,34 +76,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="databaseHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/ewulusen/kittykatt/databaseHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="220" column="4" lean-forward="false" selection-start-line="220" selection-start-column="4" selection-end-line="220" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2201#2202#0" expanded="true" />
-                <element signature="e#2258#2259#0" expanded="true" />
-                <element signature="method#onCreate#0;class#databaseHelper#0" expanded="false" />
-                <element signature="method#onUpgrade#0;class#databaseHelper#0" expanded="false" />
-                <element signature="method#saveData#0;class#databaseHelper#0" expanded="false" />
-                <element signature="method#destroyData#0;class#databaseHelper#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="start_screen.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="start_screen.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/ewulusen/kittykatt/start_screen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
+            <state relative-caret-position="25">
               <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
               <folding>
-                <element signature="e#3811#6413#0" expanded="true" />
-                <element signature="e#6412#6413#0" expanded="true" />
-                <element signature="e#7309#9133#0" expanded="true" />
-                <element signature="e#9132#9133#0" expanded="true" />
                 <element signature="method#penzNovel#0;class#start_screen#0" expanded="false" />
                 <element signature="method#mentes#0;class#start_screen#0" expanded="false" />
               </folding>
@@ -88,57 +92,88 @@
       <file leaf-file-name="factory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/ewulusen/kittykatt/factory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="44" lean-forward="false" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="44" />
+            <state relative-caret-position="-648">
+              <caret line="94" column="31" lean-forward="false" selection-start-line="94" selection-start-column="31" selection-end-line="94" selection-end-column="31" />
               <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#onCreate#0;class#factory#0" expanded="false" />
                 <element signature="method#gyarVesz#0;class#factory#0" expanded="false" />
-                <element signature="e#13716#15120#0" expanded="true" />
-                <element signature="e#15119#15120#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+            <state relative-caret-position="225">
+              <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cica.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/ewulusen/kittykatt/cica.java">
+      <file leaf-file-name="pve_battlefield.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ewulusen/kittykatt/pve_battlefield.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="193" column="37" lean-forward="false" selection-start-line="193" selection-start-column="37" selection-end-line="193" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="unit.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/ewulusen/kittykatt/unit.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="328" column="11" lean-forward="false" selection-start-line="328" selection-start-column="11" selection-end-line="328" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chat.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/ewulusen/kittykatt/chat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="243" column="36" lean-forward="false" selection-start-line="243" selection-start-column="15" selection-end-line="243" selection-end-column="36" />
+            <state relative-caret-position="325">
+              <caret line="65" column="38" lean-forward="false" selection-start-line="65" selection-start-column="38" selection-end-line="65" selection-end-column="38" />
               <folding>
-                <element signature="method#cicaTapp#0;class#chat#0" expanded="false" />
-                <element signature="method#display#0;class#chat#0" expanded="false" />
-                <element signature="method#sendmessage#0;class#chat#0" expanded="false" />
-                <element signature="method#getmessage#0;class#chat#0" expanded="false" />
+                <element signature="imports" expanded="true" />
+                <element signature="method#turn#0;class#pve_battlefield#0" expanded="false" />
+                <element signature="method#getBFTargets#0;class#pve_battlefield#0" expanded="false" />
+                <element signature="method#getBFTargetsEnemy#0;class#pve_battlefield#0" expanded="false" />
+                <element signature="method#getPower#0;class#pve_battlefield#0" expanded="false" />
+                <element signature="method#generate_enemy#0;class#pve_battlefield#0" expanded="false" />
+                <element signature="method#getHeighestPower#0;class#pve_battlefield#0" expanded="false" />
+                <element signature="method#setTargets#0;class#pve_battlefield#0" expanded="false" />
+                <element signature="method#getTargets#0;class#pve_battlefield#0" expanded="false" />
+                <element signature="method#attackTarget#0;class#pve_battlefield#0" expanded="false" />
+                <element signature="method#charDie#0;class#pve_battlefield#0" expanded="false" />
+                <element signature="method#charSurvived#0;class#pve_battlefield#0" expanded="false" />
+                <element signature="method#changeArray#0;class#pve_battlefield#0" expanded="false" />
+                <element signature="method#changeArrayCatDie#0;class#pve_battlefield#0" expanded="false" />
+                <element signature="method#whereToMove#0;class#pve_battlefield#0" expanded="false" />
+                <element signature="method#moveToThere#0;class#pve_battlefield#0" expanded="false" />
+                <element signature="method#moveEnemyThere#0;class#pve_battlefield#0" expanded="false" />
+                <element signature="method#kiir#0;class#pve_battlefield#0" expanded="false" />
+                <element signature="method#haveIWin#0;class#pve_battlefield#0" expanded="false" />
+                <element signature="method#exitBack#0;class#pve_battlefield#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="800">
+              <caret line="32" column="12" lean-forward="false" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-manifest">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_pve__battlefield.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_pve__battlefield.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-461">
+              <caret line="44" column="50" lean-forward="false" selection-start-line="44" selection-start-column="50" selection-end-line="44" selection-end-column="50" />
+              <folding>
+                <element signature="e#2731#2950#0" expanded="false" />
+                <element signature="e#2988#4675#0" expanded="false" />
+                <element signature="e#4689#6376#0" expanded="false" />
+                <element signature="e#6390#8077#0" expanded="false" />
+                <element signature="e#8091#9778#0" expanded="false" />
+                <element signature="e#9792#11479#0" expanded="false" />
+                <element signature="e#11493#13180#0" expanded="false" />
+                <element signature="e#11626#11959#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -147,9 +182,11 @@
       <file leaf-file-name="upgrade.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/ewulusen/kittykatt/upgrade.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
+            <state relative-caret-position="2050">
               <caret line="94" column="37" lean-forward="false" selection-start-line="94" selection-start-column="37" selection-end-line="94" selection-end-column="37" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -159,9 +196,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="222">
               <caret line="122" column="40" lean-forward="false" selection-start-line="122" selection-start-column="40" selection-end-line="122" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -169,7 +204,7 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-325">
+            <state relative-caret-position="125">
               <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
               <folding />
             </state>
@@ -1989,8 +2024,6 @@
         <option value="$PROJECT_DIR$/app/src/main/res/values/iamges.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/images.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_start_screen.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_pve__battlefield.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ewulusen/kittykatt/pve_battlefield.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ewulusen/kittykatt/teszt.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" />
@@ -2001,8 +2034,10 @@
         <option value="$PROJECT_DIR$/app/src/main/java/ewulusen/kittykatt/cica.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ewulusen/kittykatt/unit.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ewulusen/kittykatt/login.java" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/ewulusen/kittykatt/start_screen.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_pve__battlefield.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ewulusen/kittykatt/pve_battlefield.java" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
       </list>
     </option>
   </component>
@@ -2029,6 +2064,8 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
       <pane id="Scratches" />
       <pane id="AndroidView">
         <subPane>
@@ -2054,8 +2091,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2163,7 +2198,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1513775766186" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516278670197" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2211,7 +2246,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1513775766186" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516278670197" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2394,7 +2429,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1513775766187" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516278670198" />
       </method>
     </configuration>
     <list size="1">
@@ -2529,11 +2564,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/c2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/indit.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -2560,13 +2590,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/industry.png" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/back.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -2681,17 +2704,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="32" column="12" lean-forward="false" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/build/generated/source/r/androidTest/debug/ewulusen/kittykatt/test/R.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -2758,63 +2770,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ewulusen/kittykatt/teszt.java" />
-    <entry file="file://D:/mapp/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_pve__battlefield.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="617">
-          <caret line="42" column="55" lean-forward="false" selection-start-line="42" selection-start-column="55" selection-end-line="42" selection-end-column="55" />
-          <folding>
-            <element signature="e#2728#2947#0" expanded="false" />
-            <element signature="e#2985#4672#0" expanded="false" />
-            <element signature="e#4686#6373#0" expanded="false" />
-            <element signature="e#6387#8074#0" expanded="false" />
-            <element signature="e#8088#9775#0" expanded="false" />
-            <element signature="e#9789#11476#0" expanded="false" />
-            <element signature="e#11490#13177#0" expanded="false" />
-            <element signature="e#11623#11956#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://D:/mapp/AndroidManifest.xml" />
     <entry file="file://D:/mapp/app-debug.apk">
       <provider selected="true" editor-type-id="apk-viewer">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ewulusen/kittykatt/pve_battlefield.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2350">
-          <caret line="157" column="38" lean-forward="false" selection-start-line="157" selection-start-column="38" selection-end-line="157" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#drawBF#0;class#pve_battlefield#0" expanded="false" />
-            <element signature="method#getBFTargets#0;class#pve_battlefield#0" expanded="false" />
-            <element signature="method#getBFTargetsEnemy#0;class#pve_battlefield#0" expanded="false" />
-            <element signature="method#getPower#0;class#pve_battlefield#0" expanded="false" />
-            <element signature="method#generate_enemy#0;class#pve_battlefield#0" expanded="false" />
-            <element signature="method#getHeighestPower#0;class#pve_battlefield#0" expanded="false" />
-            <element signature="method#getTargets#0;class#pve_battlefield#0" expanded="false" />
-            <element signature="method#attackTarget#0;class#pve_battlefield#0" expanded="false" />
-            <element signature="method#charDie#0;class#pve_battlefield#0" expanded="false" />
-            <element signature="method#charSurvived#0;class#pve_battlefield#0" expanded="false" />
-            <element signature="method#changeArray#0;class#pve_battlefield#0" expanded="false" />
-            <element signature="method#changeArrayCatDie#0;class#pve_battlefield#0" expanded="false" />
-            <element signature="method#whereToMove#0;class#pve_battlefield#0" expanded="false" />
-            <element signature="method#moveToThere#0;class#pve_battlefield#0" expanded="false" />
-            <element signature="method#moveEnemyThere#0;class#pve_battlefield#0" expanded="false" />
-            <element signature="method#kiir#0;class#pve_battlefield#0" expanded="false" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
@@ -2830,12 +2789,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ewulusen/kittykatt/databaseHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
+        <state relative-caret-position="2900">
           <caret line="220" column="4" lean-forward="false" selection-start-line="220" selection-start-column="4" selection-end-line="220" selection-end-column="4" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2201#2202#0" expanded="true" />
-            <element signature="e#2258#2259#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2201#2202#0" expanded="false" />
+            <element signature="e#2258#2259#0" expanded="false" />
             <element signature="method#onCreate#0;class#databaseHelper#0" expanded="false" />
             <element signature="method#onUpgrade#0;class#databaseHelper#0" expanded="false" />
             <element signature="method#saveData#0;class#databaseHelper#0" expanded="false" />
@@ -2846,7 +2805,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ewulusen/kittykatt/chat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
+        <state relative-caret-position="4350">
           <caret line="243" column="36" lean-forward="false" selection-start-line="243" selection-start-column="15" selection-end-line="243" selection-end-column="36" />
           <folding>
             <element signature="method#cicaTapp#0;class#chat#0" expanded="false" />
@@ -2859,8 +2818,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ewulusen/kittykatt/upgrade.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
+        <state relative-caret-position="2050">
           <caret line="94" column="37" lean-forward="false" selection-start-line="94" selection-start-column="37" selection-end-line="94" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ewulusen/kittykatt/start_screen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding>
+            <element signature="method#penzNovel#0;class#start_screen#0" expanded="false" />
+            <element signature="method#mentes#0;class#start_screen#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ewulusen/kittykatt/login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="122" column="40" lean-forward="false" selection-start-line="122" selection-start-column="40" selection-end-line="122" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -2875,37 +2863,92 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ewulusen/kittykatt/cica.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
+        <state relative-caret-position="407">
           <caret line="193" column="37" lean-forward="false" selection-start-line="193" selection-start-column="37" selection-end-line="193" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/tall0.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ewulusen/kittykatt/factory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="44" lean-forward="false" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="44" />
+        <state relative-caret-position="-648">
+          <caret line="94" column="31" lean-forward="false" selection-start-line="94" selection-start-column="31" selection-end-line="94" selection-end-column="31" />
           <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#onCreate#0;class#factory#0" expanded="false" />
             <element signature="method#gyarVesz#0;class#factory#0" expanded="false" />
-            <element signature="e#13716#15120#0" expanded="true" />
-            <element signature="e#15119#15120#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ewulusen/kittykatt/login.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_pve__battlefield.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="122" column="40" lean-forward="false" selection-start-line="122" selection-start-column="40" selection-end-line="122" selection-end-column="40" />
+        <state relative-caret-position="-461">
+          <caret line="44" column="50" lean-forward="false" selection-start-line="44" selection-start-column="50" selection-end-line="44" selection-end-column="50" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2731#2950#0" expanded="false" />
+            <element signature="e#2988#4675#0" expanded="false" />
+            <element signature="e#4689#6376#0" expanded="false" />
+            <element signature="e#6390#8077#0" expanded="false" />
+            <element signature="e#8091#9778#0" expanded="false" />
+            <element signature="e#9792#11479#0" expanded="false" />
+            <element signature="e#11493#13180#0" expanded="false" />
+            <element signature="e#11626#11959#0" expanded="false" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ewulusen/kittykatt/pve_battlefield.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="65" column="38" lean-forward="false" selection-start-line="65" selection-start-column="38" selection-end-line="65" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#turn#0;class#pve_battlefield#0" expanded="false" />
+            <element signature="method#getBFTargets#0;class#pve_battlefield#0" expanded="false" />
+            <element signature="method#getBFTargetsEnemy#0;class#pve_battlefield#0" expanded="false" />
+            <element signature="method#getPower#0;class#pve_battlefield#0" expanded="false" />
+            <element signature="method#generate_enemy#0;class#pve_battlefield#0" expanded="false" />
+            <element signature="method#getHeighestPower#0;class#pve_battlefield#0" expanded="false" />
+            <element signature="method#setTargets#0;class#pve_battlefield#0" expanded="false" />
+            <element signature="method#getTargets#0;class#pve_battlefield#0" expanded="false" />
+            <element signature="method#attackTarget#0;class#pve_battlefield#0" expanded="false" />
+            <element signature="method#charDie#0;class#pve_battlefield#0" expanded="false" />
+            <element signature="method#charSurvived#0;class#pve_battlefield#0" expanded="false" />
+            <element signature="method#changeArray#0;class#pve_battlefield#0" expanded="false" />
+            <element signature="method#changeArrayCatDie#0;class#pve_battlefield#0" expanded="false" />
+            <element signature="method#whereToMove#0;class#pve_battlefield#0" expanded="false" />
+            <element signature="method#moveToThere#0;class#pve_battlefield#0" expanded="false" />
+            <element signature="method#moveEnemyThere#0;class#pve_battlefield#0" expanded="false" />
+            <element signature="method#kiir#0;class#pve_battlefield#0" expanded="false" />
+            <element signature="method#haveIWin#0;class#pve_battlefield#0" expanded="false" />
+            <element signature="method#exitBack#0;class#pve_battlefield#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="32" column="12" lean-forward="false" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-325">
+        <state relative-caret-position="125">
           <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
           <folding />
         </state>
@@ -2913,24 +2956,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        <state relative-caret-position="225">
+          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ewulusen/kittykatt/start_screen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-          <folding>
-            <element signature="e#3811#6413#0" expanded="true" />
-            <element signature="e#6412#6413#0" expanded="true" />
-            <element signature="e#7309#9133#0" expanded="true" />
-            <element signature="e#9132#9133#0" expanded="true" />
-            <element signature="method#penzNovel#0;class#start_screen#0" expanded="false" />
-            <element signature="method#mentes#0;class#start_screen#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
