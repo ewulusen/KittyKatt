@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "577223651698",
+    "project_id": "firebase-kittykatt"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:577223651698:android:c8ac2f356fa2818f",
+        "android_client_info": {
+          "package_name": "ewulusen.kittykatt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "577223651698-k0kj2oh51551mhpfgp5b4si844me6nad.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ewulusen.kittykatt",
+            "certificate_hash": "d609f374f2133b8cb7c104eb10576cf89cf79890"
+          }
+        },
+        {
+          "client_id": "577223651698-233slfajvg8c4fns83p9jjsg791k3rai.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRyDJZwbPbz4RlePnEJ72N-Pd5nyZb-hU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,7 +1,9 @@
 {
   "project_info": {
     "project_number": "577223651698",
-    "project_id": "firebase-kittykatt"
+    "firebase_url": "https://fir-kittykatt.firebaseio.com",
+    "project_id": "firebase-kittykatt",
+    "storage_bucket": "firebase-kittykatt.appspot.com"
   },
   "client": [
     {
@@ -12,6 +14,10 @@
         }
       },
       "oauth_client": [
+        {
+          "client_id": "577223651698-qir01kjl2i0fcaq0t8ad86nukuot3l0r.apps.googleusercontent.com",
+          "client_type": 3
+        },
         {
           "client_id": "577223651698-k0kj2oh51551mhpfgp5b4si844me6nad.apps.googleusercontent.com",
           "client_type": 1,
