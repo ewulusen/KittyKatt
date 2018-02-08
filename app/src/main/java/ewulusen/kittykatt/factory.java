@@ -307,7 +307,7 @@ public class factory extends AppCompatActivity {
     public void display(String title, String message){
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setCancelable(true);
-        builder.setTitle(title);
+        builder.setTitle(title);//sajt
         builder.setMessage(message);
         builder.show();
     }
